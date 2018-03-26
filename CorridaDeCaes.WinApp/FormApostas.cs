@@ -206,8 +206,7 @@ namespace CorridaDeCaes.WinApp
 
         private void btnReiniciar_Click(object sender, EventArgs e)
         {
-            ArrayGreygound[0].Run();
-            //ReiniciarCorrida();
+            ReiniciarCorrida();
         }
 
         private void picBDog1_Click(object sender, EventArgs e)
