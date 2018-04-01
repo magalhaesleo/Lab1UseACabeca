@@ -127,6 +127,12 @@ namespace CorridaDeCaes.WinApp
                 return false;
             }
 
+            if (valor > 15)
+            {
+                ExibirMessageBox("Aposta maxima é 15 Reais!", "Erro");
+                return false;
+            }
+
             if (cao < 1 || cao > 4)
             {
                 ExibirMessageBox("Escolha um cão entre 1 e 4!", "Erro");
